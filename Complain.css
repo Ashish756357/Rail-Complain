@@ -9,7 +9,27 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; /* Ensure the image is centered */
+    background-position: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #6c00c2; /* Vibrant violet color */
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: #4b0082; /* Darker violet */
 }
 
 /* Container Styling */
@@ -96,57 +116,4 @@ h2.text-uppercase {
         font-size: 14px;
         padding: 10px;
     }
-}
-
-/* Navbar styling */
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-    background-color: #6c00c2; /* Vibrant violet background for navbar */
-    background-size: cover;
-    background-position: center;
-    padding: 3px 0; /* Further reduced padding to minimize navbar size */
-    font-size: 14px; /* Reduced font size for a smaller navbar */
-}
-
-/* Navbar Brand Styling */
-.navbar-header .navbar-brand {
-    color: #fff; /* White text color for brand */
-    font-size: 20px; /* Reduced brand font size */
-    font-weight: bold;
-}
-
-/* Navbar Default Styling */
-.navbar-default {
-    background-color: #6c00c2; /* Match navbar background with body */
-    border-color: #6c00c2;
-}
-
-/* Navbar Link Styling */
-.navbar-default .navbar-nav > li > a {
-    color: #fff; /* White text color for links */
-    font-size: 14px; /* Reduced font size */
-    padding: 5px 10px; /* Further reduced padding */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
-}
-
-.navbar-default .navbar-nav > li > a:hover {
-    background-color: #4b0082; /* Darker violet on hover */
-    color: #e0e0e0; /* Slightly lighter white for hover */
-}
-
-/* Active Navbar Link Styling */
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover {
-    background-color: #4b0082; /* Darker violet for active links */
-    color: #e0e0e0; /* Slightly lighter white for active state */
-}
-
-/* Additional Styling for Navbar Visibility */
-.navbar-default .navbar-nav > li > a {
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Add subtle shadow for text visibility */
-}
-
-.navbar-header .navbar-brand {
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for brand */
 }
