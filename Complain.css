@@ -1,5 +1,3 @@
-/* Complain.css */
-
 /* Body Styling */
 body {
     background-color: #f6f6f6;
@@ -7,7 +5,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* Add your background image link here */
+    background-image: url('https://media.istockphoto.com/id/1189029599/photo/passenger-train-india.jpg?s=612x612&w=0&k=20&c=gO7cJw0zhVhVrQ4DIG_Tr0llD52_dS-DKsWU43CWiXs=');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,7 +25,7 @@ body {
 h2.text-uppercase {
     font-size: 24px;
     font-weight: 700;
-    color: #555;
+    color: #6c00c2; /* Vibrant violet color */
     margin-bottom: 30px;
 }
 
@@ -48,15 +46,15 @@ h2.text-uppercase {
 }
 
 .form-control:focus {
-    border-color: #0096db;
-    box-shadow: 0 0 8px rgba(0, 150, 219, 0.1);
+    border-color: #6c00c2; /* Vibrant violet color */
+    box-shadow: 0 0 8px rgba(108, 0, 194, 0.1);
     outline: none;
 }
 
 /* Submit Button Styling */
 .btn-larger {
-    background-color: #0096db;
-    border-color: #007bbd;
+    background-color: #6c00c2; /* Vibrant violet color */
+    border-color: #4b0082; /* Slightly darker violet */
     color: #fff;
     font-size: 16px;
     font-weight: 600;
@@ -69,8 +67,8 @@ h2.text-uppercase {
 
 .btn-larger:hover,
 .btn-larger:focus {
-    background-color: #007bbd;
-    box-shadow: 0 4px 8px rgba(0, 123, 189, 0.2);
+    background-color: #4b0082; /* Darker violet */
+    box-shadow: 0 4px 8px rgba(75, 0, 130, 0.2);
 }
 
 /* Error Message Styling */
@@ -99,42 +97,50 @@ h2.text-uppercase {
     }
 }
 
-
 /* Navbar styling */
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
-    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
-    background-size: cover; /* Ensure the background covers the navbar */
-    background-position: center; /* Center the background image */
-    padding: 5px 0; /* Reduce top and bottom padding */
+    background-color: #6c00c2; /* Vibrant violet background for navbar */
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0; /* Adjusted padding for visibility */
 }
 
 .navbar-header .navbar-brand {
-    color: #fff;
+    color: #fff; /* White text color for brand */
     font-size: 24px;
     font-weight: bold;
 }
 
 .navbar-default {
-    background-color: transparent; /* Make sure the background color is transparent so the image shows through */
-    border-color: transparent;
+    background-color: #6c00c2; /* Match navbar background with body */
+    border-color: #6c00c2;
 }
 
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #fff; /* White text color for links */
     font-size: 16px;
-    padding: 10px 15px; /* Adjust padding to reduce space around links */
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    background-color: #555;
-    color: #fff;
+    background-color: #4b0082; /* Darker violet on hover */
+    color: #e0e0e0; /* Slightly lighter white for hover */
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
-    background-color: #555;
-    color: #fff;
+    background-color: #4b0082; /* Darker violet for active links */
+    color: #e0e0e0; /* Slightly lighter white for active state */
 }
 
+/* Additional Styling for Navbar Visibility */
+.navbar-default .navbar-nav > li > a {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Add subtle shadow for text visibility */
+}
+
+.navbar-header .navbar-brand {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow for brand */
+}
