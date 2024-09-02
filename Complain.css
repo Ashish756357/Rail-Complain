@@ -1,0 +1,140 @@
+/* Complain.css */
+
+/* Body Styling */
+body {
+    background-color: #f6f6f6;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png'); /* Add your background image link here */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    background-color: #fff;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+h2.text-uppercase {
+    font-size: 24px;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Input and Textarea Styling */
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0096db;
+    box-shadow: 0 0 8px rgba(0, 150, 219, 0.1);
+    outline: none;
+}
+
+/* Submit Button Styling */
+.btn-larger {
+    background-color: #0096db;
+    border-color: #007bbd;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-larger:hover,
+.btn-larger:focus {
+    background-color: #007bbd;
+    box-shadow: 0 4px 8px rgba(0, 123, 189, 0.2);
+}
+
+/* Error Message Styling */
+.help-block.text-danger {
+    font-size: 12px;
+    color: #d9534f;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h2.text-uppercase {
+        font-size: 20px;
+    }
+
+    .form-control {
+        font-size: 13px;
+    }
+
+    .btn-larger {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+/* Navbar styling */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+    background-size: cover; /* Ensure the background covers the navbar */
+    background-position: center; /* Center the background image */
+    padding: 5px 0; /* Reduce top and bottom padding */
+}
+
+.navbar-header .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-default {
+    background-color: transparent; /* Make sure the background color is transparent so the image shows through */
+    border-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 15px; /* Adjust padding to reduce space around links */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
