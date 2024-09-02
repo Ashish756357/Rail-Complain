@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center; /* Ensure the image is centered */
 }
 
 /* Container Styling */
@@ -104,24 +105,28 @@ h2.text-uppercase {
     background-color: #6c00c2; /* Vibrant violet background for navbar */
     background-size: cover;
     background-position: center;
-    padding: 10px 0; /* Adjusted padding for visibility */
+    padding: 3px 0; /* Further reduced padding to minimize navbar size */
+    font-size: 14px; /* Reduced font size for a smaller navbar */
 }
 
+/* Navbar Brand Styling */
 .navbar-header .navbar-brand {
     color: #fff; /* White text color for brand */
-    font-size: 24px;
+    font-size: 20px; /* Reduced brand font size */
     font-weight: bold;
 }
 
+/* Navbar Default Styling */
 .navbar-default {
     background-color: #6c00c2; /* Match navbar background with body */
     border-color: #6c00c2;
 }
 
+/* Navbar Link Styling */
 .navbar-default .navbar-nav > li > a {
     color: #fff; /* White text color for links */
-    font-size: 16px;
-    padding: 10px 15px;
+    font-size: 14px; /* Reduced font size */
+    padding: 5px 10px; /* Further reduced padding */
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
 }
 
@@ -130,6 +135,7 @@ h2.text-uppercase {
     color: #e0e0e0; /* Slightly lighter white for hover */
 }
 
+/* Active Navbar Link Styling */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover {
     background-color: #4b0082; /* Darker violet for active links */
